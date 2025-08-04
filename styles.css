@@ -1,0 +1,45 @@
+/* Set background image and style for the whole page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://cdn.pixabay.com/photo/2017/02/15/12/12/blood-donation-2062373_960_720.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+
+/* Center container */
+.container {
+  background-color: rgba(0, 0, 0, 0.6); /* transparent dark background */
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #b71c1c;
+}
